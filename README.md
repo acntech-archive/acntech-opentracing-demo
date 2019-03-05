@@ -1,6 +1,6 @@
 # Opentracing and Jaeger demo with Spring Boot
 
-This is a small demo project to show tracing through Opentracing of microservice built in Spring Boot in Jaeger.
+This is a small demo project to show tracing through [Opentracing](https://opentracing.io/) of microservice built in Spring Boot in [Jaeger](https://www.jaegertracing.io/).
 
 ## How to run the demo
 
@@ -22,7 +22,7 @@ $ docker run -d --name jaeger \
 $ mvn spring-boot:run
 ```
 
-3. Open http://localhost:8080/hello in a browser to trigger the requests
+3. Open http://localhost:8080/hello in a browser and trigger a request
 4. Go to http://localhost:16686 and search for traces on the 'service-a' application.
 
 ## Project Structure
